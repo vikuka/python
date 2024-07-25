@@ -1,0 +1,49 @@
+Descripción del Proyecto:
+El objetivo es desarrollar un sistema que automáticamente extraiga datos de productos y precios de una tiendas en línea, almacene esos datos, y realice análisis para identificar tendencias, comparar precios y generar informes.
+
+
+Componentes del proyecto=
+
+Web Scraping  [Lección 9] "5%"
+Utilizar BeautifulSoup para extraer datos de productos, precios y disponibilidad de varias tiendas en línea. 
+
+Manejo de Datos con Pandas [Leccion 8] "20%"
+Usar Pandas para limpiar, transformar, y estructurar los datos extraídos en DataFrames.
+Realizar análisis estadísticos básicos y avanzados para comparar precios y evaluar tendencias.
+
+Funciones y Decoradores [Leccion 4 y Leccion 7] "20%"
+Crear funciones para automatizar el proceso de análisis de datos.
+Utilizar decoradores para añadir funcionalidades, como logging o medidas de tiempo de ejecución a las funciones críticas.
+
+Variables, Bucles y Condicionales [Leccion 2 y Leccion 3] "20%"
+Implementar bucles y condicionales para manejar la lógica de extracción y procesamiento de datos, como iterar sobre diferentes páginas de productos y manejar errores de datos.
+
+Manejo de Archivos [Leccion 5] "20%"
+Leer y escribir datos en archivos CSV o Excel, permitiendo que los usuarios guarden y revisen análisis anteriores.
+
+Módulos y Paquetes [Leccion 6] "20%"
+Organizar el código en módulos y paquetes, separando las funcionalidades como scraping, análisis, y reporte en diferentes módulos.
+
+
+Funcionalidades Extras para agregar al proyecto.
+
+Scraping Paginado [01]
+Si el Sitio web tiene multiples paginas de productos, implementar logica para iterar sobre todas las paginas 
+
+Almacenamiento de Datos [02]
+Almacenar los datos en una base de datos (por ejemplo, SQLite,MongoDB) en lugar de solo archivos CSV para mejor manejo y consulta de los mismos.
+
+Visualizcion Avanzada [03]
+Crear visualizaciones mas avanzadas utilizando herramientas como "seaborn" o "plotly".
+
+Informes Automaticos [04]
+Generar informes automaticos en formato PDF o HTML que incluyan graficos y analisis.
+
+Interfaz de Usuario [05]
+Crear una interfaz de usuario simple (CLI O GUI) para interactuar con el sistema.
+
+Documentacion [06]
+Generamos documentacion detallada para interpretar nuestro programa.
+
+Testing [07]
+Creamos pruebas unitarias para asegurarnos de la fiabilidad del codigo.
